@@ -80,6 +80,29 @@
   <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
 </p>
 
+---
+
+<p align="center">
+  <a href="https://github.com/Kunalchandra007/CareerPilot/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/⬇_Download_for_Windows-4f8cff?style=for-the-badge&logoColor=white" alt="Download for Windows"></a>
+  &nbsp;
+  <a href="INSTALL.md"><img src="https://img.shields.io/badge/📖_Install_Guide-2b3137?style=for-the-badge" alt="Install Guide"></a>
+</p>
+
+<p align="center"><sub><strong>CareerPilot</strong> is a local-first fork of <a href="https://github.com/santifer/career-ops">santifer/career-ops</a>. Download it, double-click <code>CareerPilot.bat</code>, and it runs entirely on your own machine — your data never leaves your computer. New here? Start with the <a href="INSTALL.md"><strong>Install Guide</strong></a>.</sub></p>
+
+## Quick Start (Windows)
+
+```text
+1. Install Node.js LTS from https://nodejs.org   (one-time)
+2. Download this repo (green "Code" button ▸ Download ZIP) and unzip it
+3. Double-click  CareerPilot.bat
+   → first run builds the app, then opens http://localhost:3000
+```
+
+The dashboard's setup wizard walks you through adding your CV and profile on first launch. Full details, macOS/Linux steps, automation, and troubleshooting are in **[INSTALL.md](INSTALL.md)**.
+
+> **Hosting note:** the `web/` dashboard is *local-first* — it reads/writes your files and runs the scanner on your machine, so it is **not** deployable to Vercel/serverless. What you can host is the static landing page in [`site/`](site/README.md). See [INSTALL.md](INSTALL.md#can-i-host-the-dashboard-online-vercelnetlify) for why.
+
 ## What Is This
 
 career-ops ([career-ops.org](https://career-ops.org), also known as **careerops**) turns any AI coding CLI into a full job search command center. Instead of manually tracking applications in a spreadsheet, you get an AI-powered pipeline that:

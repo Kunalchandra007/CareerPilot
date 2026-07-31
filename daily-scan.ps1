@@ -4,12 +4,18 @@
 
 Set-Location "C:\Projects\CareerPilot"
 
-$stamp = Get-Date -Format "yyyy-MM-dd HH:mm"
-Add-Content -Path "scan.log" -Value "===== [$stamp] daily scan start ====="
+# Make the console + Node output pipe through as UTF-8 so emoji/box chars
+# land in scan.log intact instead of being mangled by the legacy codepage.
+$OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+$env:PYTHONIOENCODING = "utf-8"
 
-# Run the scanner; capture stdout+stderr into the log
-node scan.mjs *>&1 | Add-Content -Path "scan.log"
+$stamp = Get-Date -Format "yyyy-MM-dd HH:mm"
+Add-Content -Path "scan.log" -Value "===== [$stamp] daily scan start =====" -Encoding utf8
+
+# Run the scanner; capture stdout+stderr into the log (UTF-8).
+node scan.mjs *>&1 | Add-Content -Path "scan.log" -Encoding utf8
 
 $stamp2 = Get-Date -Format "yyyy-MM-dd HH:mm"
-Add-Content -Path "scan.log" -Value "===== [$stamp2] daily scan done ====="
-Add-Content -Path "scan.log" -Value ""
+Add-Content -Path "scan.log" -Value "===== [$stamp2] daily scan done =====" -Encoding utf8
+Add-Content -Path "scan.log" -Value "" -Encoding utf8
