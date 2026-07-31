@@ -60,9 +60,7 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
-  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
+  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
 </p>
 
 ## Що це таке
@@ -282,7 +280,7 @@ career-ops/
 3. **Ви дотримуєтеся умов сервісу третіх сторін.** Ви повинні використовувати цей інструмент відповідно до Умов використання кар'єрних порталів, з якими взаємодієте (Greenhouse, Lever, Workday, LinkedIn тощо). Не використовуйте цей інструмент для спаму роботодавців або перевантаження ATS-систем.
 4. **Без гарантій.** Оцінки — це рекомендації, а не істина. AI-моделі можуть вигадувати навички або досвід. Автори не несуть відповідальності за результати працевлаштування, відхилені заявки, обмеження облікових записів чи будь-які інші наслідки.
 
-Дивіться [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) за повною інформацією. Це програмне забезпечення надається за [ліцензією MIT](LICENSE) "як є", без будь-яких гарантій.
+Дивіться [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) за повною інформацією. Це програмне забезпечення надається за [LICENSE](LICENSE) "як є", без будь-яких гарантій.
 
 ## Контриб'ютори
 
@@ -294,8 +292,7 @@ career-ops/
 
 ## Ліцензія
 
-MIT
-
+See [LICENSE](LICENSE).
 ## Контакти
 
 [![Вебсайт](https://img.shields.io/badge/santifer.io-000?style=for-the-badge&logo=safari&logoColor=white)](https://santifer.io)

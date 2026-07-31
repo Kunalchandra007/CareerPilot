@@ -35,4 +35,4 @@ Open a registry PR against career-ops (see
 
 ## License
 
-MIT
+See the root [LICENSE](../../LICENSE) for the full notice.

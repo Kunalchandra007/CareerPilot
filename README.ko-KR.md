@@ -58,9 +58,7 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
-  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
+  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
 </p>
 
 ## 이게 뭔가요
@@ -276,12 +274,11 @@ Santiago입니다 -- Head of Applied AI, 전직 창업자 (직접 사업을 만�
 3. **약관 준수:** 채용 포털(Greenhouse, Lever, Workday, LinkedIn 등)의 이용약관을 반드시 준수하세요. 본 도구를 스팸 전송이나 ATS 시스템 과부하 용도로 사용하는 것을 금지합니다.
 4. **보증은 없습니다.** 평가 결과는 추천이지 사실이 아닙니다. AI 모델은 스킬이나 경험을 허위로 생성할 수 있습니다. 저자는 채용 결과, 거절된 지원, 계정 제한 또는 기타 결과에 대해 책임지지 않습니다.
 
-자세한 내용은 [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md)를 참고하세요. 이 소프트웨어는 [MIT 라이선스](LICENSE)에 따라 어떠한 보증 없이 "있는 그대로" 제공됩니다.
+자세한 내용은 [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md)를 참고하세요. 이 소프트웨어는 [LICENSE](LICENSE)에 따라 어떠한 보증 없이 "있는 그대로" 제공됩니다.
 
 ## 라이선스
 
-MIT
-
+See [LICENSE](LICENSE).
 ## 소통하기
 
 [![Website](https://img.shields.io/badge/santifer.io-000?style=for-the-badge&logo=safari&logoColor=white)](https://santifer.io)

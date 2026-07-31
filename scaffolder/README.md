@@ -30,4 +30,4 @@ Prefer the manual route? `git clone` still works exactly as before — see the [
 
 ## License
 
-MIT © [Santiago Fernández de Valderrama](https://santifer.io)
+© [Santiago Fernández de Valderrama](https://santifer.io) — see the root [LICENSE](../LICENSE) for the full notice.

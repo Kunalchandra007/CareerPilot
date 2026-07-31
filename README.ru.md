@@ -60,9 +60,7 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
-  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
+  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
 </p>
 
 ## Что это
@@ -283,8 +281,8 @@ career-ops работает на Windows. Если навыки не загру�
 3. **Соблюдайте ToS площадок.** Используйте инструмент в соответствии с правилами порталов (hh.ru, Хабр Карьера, LinkedIn и др.). Не спамьте работодателей.
 4. **Нет гарантий.** Оценки — рекомендации, не истина. ИИ может галлюцинировать. Авторы не несут ответственности за результаты трудоустройства.
 
-Подробнее: [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md). ПО распространяется по [лицензии MIT](LICENSE) «как есть», без каких-либо гарантий.
+Подробнее: [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md). ПО распространяется по [LICENSE](LICENSE) «как есть», без каких-либо гарантий.
 
 ## Лицензия
 
-MIT
+See [LICENSE](LICENSE).

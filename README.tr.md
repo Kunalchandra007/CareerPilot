@@ -75,9 +75,7 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
-  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
+  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
 </p>
 
 ## Bu Nedir
@@ -459,7 +457,7 @@ Wikidata: [Santiago Fernández de Valderrama Aparicio](https://www.wikidata.org/
 3. **Üçüncü taraf hizmet koşullarına uyarsınız.** Bu aracı, etkileşimde bulunduğunuz kariyer portallarının (Greenhouse, Lever, Workday, LinkedIn vb.) Kullanım Koşullarına uygun şekilde kullanmalısınız. Bu aracı işverenlere spam göndermek veya ATS sistemlerini aşırı yüklemek için kullanmayın.
 4. **Garanti yoktur.** Değerlendirmeler öneridir, gerçek değildir. Yapay zekâ modelleri beceri veya deneyim hakkında yanılsama üretebilir. Yazarlar; istihdam sonuçlarından, reddedilen başvurulardan, hesap kısıtlamalarından veya başka herhangi bir sonuçtan sorumlu değildir.
 
-Tüm ayrıntılar için bkz. [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md). Bu yazılım, herhangi bir garanti olmaksızın "olduğu gibi" [MIT Lisansı](LICENSE) altında sağlanmaktadır.
+Tüm ayrıntılar için bkz. [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md). Bu yazılım, herhangi bir garanti olmaksızın "olduğu gibi" [LICENSE](LICENSE) altında sağlanmaktadır.
 
 ## Katkıda Bulunanlar
 
@@ -471,7 +469,7 @@ career-ops kullanarak işe mi girdiniz? [Hikayenizi paylaşın!](https://github.
 
 ## Lisans ve Ticari Marka
 
-Kod [MIT](LICENSE) altında lisanslanmıştır. "career-ops" adı ve
+Kod [LICENSE](LICENSE) altında lisanslanmıştır. "career-ops" adı ve
 markası, topluluk kullanımı için serbestçe uygulanan ancak ticari ürün
 adlandırma ve onayı için saklı tutulan [Ticari Marka Politikası](TRADEMARK.md)
 tarafından yönetilir.

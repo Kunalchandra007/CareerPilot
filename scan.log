@@ -1011,3 +1011,51 @@ Network errors (1):
 → Share results and get help: https://discord.gg/8pRpHETxa4
 ===== [2026-07-31 18:49] daily scan done =====
 
+===== [2026-07-31 21:00] daily scan start =====
+Scanning 23 companies; 0 local parser; 19 skipped — no provider matched via providers
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portal Scan — 2026-07-31
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Companies scanned:     23
+Total jobs found:      3738
+Filtered by title:     3207 removed
+Filtered by location:  426 removed
+Duplicates:            104 skipped
+Recheck eligible:      0 old scan-history URL(s)
+New offers added:      1
+Agent/WebSearch handoff: 19 companies not handled by zero-token providers
+  • Together AI (websearch) — "Together AI" careers "Engineer" OR "ML" OR "Applied AI" remote
+  • Fireworks AI (websearch) — "Fireworks AI" careers "Engineer" OR "ML" OR "Inference" remote
+  • Weights & Biases (websearch) — "Weights & Biases" OR "wandb" careers "Engineer" OR "ML" OR "AI" remote OR India
+  • Scale AI (websearch) — "Scale AI" careers "Engineer" OR "ML" OR "Applied AI" remote OR India
+  • Baseten (websearch) — "Baseten" careers "Engineer" OR "ML" OR "Inference" remote
+  • Modal (websearch) — "Modal Labs" OR "modal.com" careers "Engineer" OR "ML" OR "Infra" remote
+  • Replicate (websearch) — "Replicate" careers "Engineer" OR "ML" OR "AI" remote
+  • Sprinklr (websearch) — "sprinklr" careers "Software Engineer" OR "AI" OR "Machine Learning" OR "Backend" India OR remote
+  • Chargebee (websearch) — "chargebee" careers "Software Engineer" OR "Backend" OR "AI" OR "Full Stack" India OR remote
+  • Maxim AI (websearch) — "Maxim AI" OR "getmaxim" careers "engineer" OR "product"
+  • Sarvam AI (websearch) — "Sarvam AI" careers "Engineer" OR "ML" OR "Research" OR "Applied AI" India OR Bengaluru
+  • Krutrim (websearch) — "Krutrim" careers "Engineer" OR "ML" OR "AI" India OR Bengaluru
+  • Fractal (websearch) — "Fractal Analytics" OR "fractal.ai" careers "Data Scientist" OR "ML Engineer" OR "AI" India
+  • Uniphore (websearch) — "Uniphore" careers "Engineer" OR "ML" OR "AI" OR "NLP" India OR remote
+  • Microsoft (websearch) — "Microsoft" careers "Software Engineer" OR "Machine Learning" OR "Applied Scientist" India Bengaluru OR Hyderabad OR Noida
+  • Google (websearch) — "Google" careers "Software Engineer" OR "Machine Learning" OR "Research" India Bengaluru OR Hyderabad OR Gurgaon
+  • Adobe (websearch) — "Adobe" careers "Software Engineer" OR "Machine Learning" OR "Computer Scientist" India Noida OR Bengaluru
+  • NVIDIA (websearch) — "NVIDIA" careers "Software Engineer" OR "Deep Learning" OR "Machine Learning" India Bengaluru OR Pune OR Hyderabad
+  • Atlassian (websearch) — "Atlassian" careers "Software Engineer" OR "Machine Learning" OR "Backend" India Bengaluru OR remote
+
+🚨 FIX NEEDED: 2 target(s) have been unreachable for 3+ runs:
+   Observe.AI, Glean
+   Run: node verify-portals.mjs to check if the ATS migrated, or update their board slugs.
+🟡 1 target(s) live but empty: Mistral AI
+
+New offers:
+  + ADCI - Karnataka | Software Development Engineer, WWOSTech | Bengaluru, Karnataka, IND
+
+Results saved to data/pipeline.md and data/scan-history.tsv
+
+→ Run /career-ops pipeline to evaluate new offers.
+→ Share results and get help: https://discord.gg/8pRpHETxa4
+===== [2026-07-31 21:00] daily scan done =====
+

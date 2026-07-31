@@ -75,9 +75,7 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
-  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
+  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
 </p>
 
 ## यह क्या है
@@ -434,7 +432,7 @@ Wikidata: [Santiago Fernández de Valderrama Aparicio](https://www.wikidata.org/
 3. **आप third-party ToS का पालन करते हैं।** आपको इस tool को उन career portals के Terms of Service के अनुसार use करना है जिनसे आप interact करते हैं (Greenhouse, Lever, Workday, LinkedIn, आदि)। Employers को spam करने या ATS systems को overwhelm करने के लिए इस tool का use न करें।
 4. **कोई guarantee नहीं।** Evaluations recommendations हैं, truth नहीं। AI models skills या experience hallucinate कर सकते हैं। Authors employment outcomes, rejected applications, account restrictions, या किसी अन्य consequences के लिए liable नहीं हैं।
 
-Full details के लिए [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) देखें। यह software [MIT License](LICENSE) के under "as is" provide किया जाता है, बिना किसी warranty के।
+Full details के लिए [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) देखें। यह software [LICENSE](LICENSE) के under "as is" provide किया जाता है, बिना किसी warranty के।
 
 ## Contributors
 
@@ -446,7 +444,7 @@ career-ops use करके hired हुए? [अपनी story share करे
 
 ## License & Trademark
 
-Code [MIT](LICENSE) के under licensed है। "career-ops" नाम और brand [Trademark Policy](TRADEMARK.md) के under governed हैं, community use के लिए permissive, commercial product naming और endorsement के लिए reserved।
+Code [LICENSE](LICENSE) के under licensed है। "career-ops" नाम और brand [Trademark Policy](TRADEMARK.md) के under governed हैं, community use के लिए permissive, commercial product naming और endorsement के लिए reserved।
 
 ## Connect करें
 

@@ -64,9 +64,7 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
-  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
+  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
 </p>
 
 ## Qu'est-ce que c'est
@@ -332,7 +330,7 @@ Wikidata: [Santiago Fernández de Valderrama Aparicio](https://www.wikidata.org/
 3. **Vous respectez les conditions d'utilisation des tiers.** Vous devez utiliser cet outil conformément aux conditions d'utilisation des portails de recrutement avec lesquels vous interagissez (Greenhouse, Lever, Workday, LinkedIn, etc.). N'utilisez pas cet outil pour spammer les employeurs ou saturer les systèmes ATS.
 4. **Aucune garantie.** Les évaluations sont des recommandations et non des vérités absolues. Les modèles d'IA peuvent halluciner des compétences ou de l'expérience. Les auteurs ne sont pas responsables de l'issue de vos recherches, des candidatures rejetées, des restrictions de compte ou de toute autre conséquence.
 
-Voir [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) (en anglais) pour tous les détails. Ce logiciel est fourni sous [Licence MIT](LICENSE) "en l'état", sans aucune garantie d'aucune sorte.
+Voir [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) (en anglais) pour tous les détails. Ce logiciel est fourni sous [LICENSE](LICENSE) "en l'état", sans aucune garantie d'aucune sorte.
 
 ## Contributeurs
 
@@ -344,7 +342,7 @@ Vous avez été embauché grâce à career-ops ? [Partagez votre histoire ! (en 
 
 ## Licence et marques déposées
 
-Le code est distribué sous [Licence MIT](LICENSE). Le nom et la marque "career-ops" sont régis par la [Politique de marques déposées](TRADEMARK.md), qui autorise l'usage par la communauté mais le réserve pour les produits commerciaux et les promotions.
+Le code est distribué sous [LICENSE](LICENSE). Le nom et la marque "career-ops" sont régis par la [Politique de marques déposées](TRADEMARK.md), qui autorise l'usage par la communauté mais le réserve pour les produits commerciaux et les promotions.
 
 ## Connectons-nous
 

@@ -75,9 +75,7 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
-  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
+  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
 </p>
 
 ## Was ist das?
@@ -314,7 +312,7 @@ Wikidata: [Santiago Fernández de Valderrama Aparicio](https://www.wikidata.org/
 3. **Du hältst dich an Drittanbieter-AGB.** Nutze dieses Tool im Einklang mit den Nutzungsbedingungen der Karriereportale, mit denen du interagierst. Verwende es nicht, um Arbeitgeber zu spammen oder ATS-Systeme zu überlasten.
 4. **Keine Garantien.** Bewertungen sind Empfehlungen, keine Wahrheit. KI-Modelle können Kenntnisse oder Erfahrungen halluzinieren. Die Autor:innen haften nicht für Beschäftigungsergebnisse, Ablehnungen, Kontosperren oder andere Folgen.
 
-Siehe [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) für Details. Diese Software wird unter der [MIT License](LICENSE) ohne Gewährleistung bereitgestellt.
+Siehe [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md) für Details. Diese Software wird unter der [LICENSE](LICENSE) ohne Gewährleistung bereitgestellt.
 
 ## Mitwirkende
 
@@ -326,7 +324,7 @@ Mit career-ops eingestellt worden? [Teile deine Geschichte!](https://github.com/
 
 ## Lizenz & Trademark
 
-Der Code steht unter der [MIT](LICENSE)-Lizenz. Der Name und die Marke "career-ops" unterliegen der [Trademark Policy](TRADEMARK.md): offen für Community-Nutzung, reserviert für kommerzielle Produktnamen und Endorsements.
+Der Code steht unter der [LICENSE](LICENSE)-Lizenz. Der Name und die Marke "career-ops" unterliegen der [Trademark Policy](TRADEMARK.md): offen für Community-Nutzung, reserviert für kommerzielle Produktnamen und Endorsements.
 
 ## Kontakt
 

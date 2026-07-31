@@ -60,9 +60,7 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
-  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
+  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
 </p>
 
 ## 這是什麼
@@ -279,7 +277,7 @@ career-ops/
 3. **你須遵守第三方服務條款。** 你必須依據你所操作的求職平台（Greenhouse、Lever、Workday、LinkedIn 等）的服務條款使用本工具。請勿使用本工具向雇主發送垃圾訊息或對 ATS 系統造成過多負擔。
 4. **不提供任何保證。** 評估結果僅為建議，並非事實。AI 模型可能會產生幻覺，錯誤描述技能或經歷。作者對於任何就業結果、應徵被拒、帳號限制或其他後果概不負責。
 
-詳細內容請參閱 [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md)。本軟體依 [MIT 授權條款](LICENSE) 以「現狀」提供，不附帶任何形式的保證。
+詳細內容請參閱 [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md)。本軟體依 [LICENSE](LICENSE) 以「現狀」提供，不附帶任何形式的保證。
 
 ## 貢獻者
 
@@ -291,8 +289,7 @@ career-ops/
 
 ## 授權條款
 
-MIT
-
+See [LICENSE](LICENSE).
 ## 聯絡我
 
 [![Website](https://img.shields.io/badge/santifer.io-000?style=for-the-badge&logo=safari&logoColor=white)](https://santifer.io)

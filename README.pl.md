@@ -54,9 +54,7 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
-  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
+  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
 </p>
 
 ## Co to jest
@@ -307,7 +305,7 @@ Moje portfolio i inne projekty open source → [santifer.io](https://santifer.io
 3. **Przestrzegasz regulaminów portali.** Korzystaj z narzędzia zgodnie z warunkami korzystania z serwisów, z którymi wchodzisz w interakcję (Greenhouse, Lever, pracuj.pl, LinkedIn itd.). Nie używaj go do spamowania pracodawców.
 4. **Brak gwarancji.** Oceny to rekomendacje, nie prawda. Modele AI mogą halucynować. Autorzy nie ponoszą odpowiedzialności za wyniki rekrutacji, odrzucone aplikacje, ograniczenia konta ani żadne inne konsekwencje.
 
-Szczegóły: [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md). Oprogramowanie jest udostępniane na [licencji MIT](LICENSE) „tak jak jest", bez jakichkolwiek gwarancji.
+Szczegóły: [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md). Oprogramowanie jest udostępniane na [LICENSE](LICENSE) „tak jak jest", bez jakichkolwiek gwarancji.
 
 ## Współtwórcy
 
@@ -319,7 +317,7 @@ Znalazłeś pracę dzięki career-ops? [Podziel się swoją historią!](https://
 
 ## Licencja i znak towarowy
 
-Kod jest licencjonowany na [MIT](LICENSE). Nazwa i marka „career-ops" są regulowane przez [Politykę Znaków Towarowych](TRADEMARK.md) — dozwolone dla użytku społecznościowego, zastrzeżone dla komercyjnego nazewnictwa produktów i endorsementu.
+Kod jest licencjonowany na [LICENSE](LICENSE). Nazwa i marka „career-ops" są regulowane przez [Politykę Znaków Towarowych](TRADEMARK.md) — dozwolone dla użytku społecznościowego, zastrzeżone dla komercyjnego nazewnictwa produktów i endorsementu.
 
 ## Bądźmy w kontakcie
 

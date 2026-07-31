@@ -54,9 +54,7 @@
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright">
-  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT">
-  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
+  <img src="https://img.shields.io/badge/Bubble_Tea-FF75B5?style=flat&logo=go&logoColor=white" alt="Bubble Tea">  <a href="TRADEMARK.md"><img src="https://img.shields.io/badge/Trademark-Policy-blue.svg" alt="Trademark Policy"></a>
 </p>
 
 ## Hvad er det
@@ -282,7 +280,7 @@ Min portefølje og andre open source-projekter → [santifer.io](https://santife
 3. **Du overholder tredjeparters vilkår.** Brug værktøjet i overensstemmelse med servicevilkårene for de tjenester, du interagerer med (Greenhouse, Lever, jobindex.dk, LinkedIn osv.). Brug det ikke til at spamme arbejdsgivere.
 4. **Ingen garanti.** Vurderinger er anbefalinger, ikke sandheder. AI-modeller kan hallucinere. Forfatterne er ikke ansvarlige for rekrutteringsresultater, afviste ansøgninger, kontobegrænsninger eller andre konsekvenser.
 
-Detaljer: [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md). Softwaren leveres under [MIT-licensen](LICENSE) "som den er", uden nogen form for garanti.
+Detaljer: [LEGAL_DISCLAIMER.md](LEGAL_DISCLAIMER.md). Softwaren leveres under [LICENSE](LICENSE) "som den er", uden nogen form for garanti.
 
 ## Bidragydere
 
@@ -294,7 +292,7 @@ Fandt du job med career-ops? [Del din historie!](https://github.com/santifer/car
 
 ## Licens og varemærke
 
-Koden er licenseret under [MIT](LICENSE). Navnet og brandet "career-ops" er reguleret af [Varemærkepolitikken](TRADEMARK.md) — tilladt til fællesskabsbrug, forbeholdt kommerciel produktnavngivning og endorsement.
+Koden er licenseret under [LICENSE](LICENSE). Navnet og brandet "career-ops" er reguleret af [Varemærkepolitikken](TRADEMARK.md) — tilladt til fællesskabsbrug, forbeholdt kommerciel produktnavngivning og endorsement.
 
 ## Lad os forbinde
 
