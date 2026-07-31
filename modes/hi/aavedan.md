@@ -66,7 +66,7 @@ Interactive mode जब candidate Chrome में application form भर र�
 2. **Previous Block G**: यदि draft मौजूद हो, उसे base लें और refine करें
 3. **"I choose you" tone**: Auto-pipeline जैसा framework — confident, गिड़गिड़ाहट नहीं
 4. **Specificity**: Screen पर visible offer से कुछ concrete cite करें
-5. **CareerPilot proof point**: "Additional information" जैसा field हो तो include करें
+5. **Career-ops proof point**: "Additional information" जैसा field हो तो include करें
 
 **India-specific form fields के लिए guidance:**
 

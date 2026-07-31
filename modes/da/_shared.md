@@ -1,10 +1,10 @@
-# Delt kontekst -- CareerPilot (Dansk)
+# Delt kontekst -- career-ops (Dansk)
 
 <!-- ============================================================
      TILPASNING AF DENNE FIL
      ============================================================
-     Denne fil indeholder den delte kontekst for alle CareerPilot-modes
-     i den danske version. Før du bruger CareerPilot, SKAL du:
+     Denne fil indeholder den delte kontekst for alle career-ops-modes
+     i den danske version. Før du bruger career-ops, SKAL du:
      1. Udfylde config/profile.yml med dine personlige oplysninger
      2. Oprette cv.md i projektets rod (CV i Markdown)
      3. (Valgfrit) Oprette article-digest.md med dine proof points

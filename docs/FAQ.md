@@ -16,9 +16,9 @@ Windows does not create symlinks by default, so Git checks out the CLI skill ent
 
 Pass `--limit <N>` to `batch-runner.sh` to cap the number of offers processed in a single run (e.g. `./batch/batch-runner.sh --limit 5`) — this lets you inspect output quality before committing to a larger run. If a run is interrupted mid-way by a rate limit or network error, do not restart from scratch; use `./batch/batch-runner.sh --resume-paused` to skip already-completed jobs and pick up where you left off, avoiding wasted tokens on work that finished successfully.
 
-## 4. Can I run CareerPilot on a cheaper or local model?
+## 4. Can I run career-ops on a cheaper or local model?
 
-Yes — CareerPilot is fully AI-agnostic and works with any AI coding CLI or standalone script. See [docs/RUNNING_ON_A_BUDGET.md](RUNNING_ON_A_BUDGET.md) for a full guide covering OpenCode, Qwen CLI, DeepSeek, OpenRouter, Ollama, and other local or low-cost providers, along with recommended model sizes and token-saving best practices.
+Yes — career-ops is fully AI-agnostic and works with any AI coding CLI or standalone script. See [docs/RUNNING_ON_A_BUDGET.md](RUNNING_ON_A_BUDGET.md) for a full guide covering OpenCode, Qwen CLI, DeepSeek, OpenRouter, Ollama, and other local or low-cost providers, along with recommended model sizes and token-saving best practices.
 
 ## 5. What does the "possible cross-listing" warning mean during a scan?
 
@@ -42,7 +42,7 @@ it means the job description text of two listings from **different companies** i
 
 ## 6. Can I use my own CV template?
 
-Yes. Set `cv.template` (and/or `cover_letter.template`) in `config/profile.yml` to the kebab-case name of a template file in `templates/` — a value of `modern` resolves to `templates/cv-template.modern.html` (cover letters use `templates/cover-letter-template.<name>.html`). Leave the field unset and CareerPilot falls back to the built-in default template (`templates/cv-template.html`). You can also pick a template per generation just by asking (e.g. "use the modern template"). See the commented `cv.template` / `cover_letter.template` fields in `config/profile.example.yml` for the full reference.
+Yes. Set `cv.template` (and/or `cover_letter.template`) in `config/profile.yml` to the kebab-case name of a template file in `templates/` — a value of `modern` resolves to `templates/cv-template.modern.html` (cover letters use `templates/cover-letter-template.<name>.html`). Leave the field unset and career-ops falls back to the built-in default template (`templates/cv-template.html`). You can also pick a template per generation just by asking (e.g. "use the modern template"). See the commented `cv.template` / `cover_letter.template` fields in `config/profile.example.yml` for the full reference.
 
 ## How do I stop a company from showing up in scans?
 
@@ -51,3 +51,31 @@ Copy `templates/blacklist.example.md` to `data/blacklist.md`, then list one comp
 If a listed company is encountered, the scan reports that it was skipped (never silently). You can bypass the filter with `--include-blacklisted` if you want to audit matching postings.
 
 See the Company blacklist section in `docs/SCRIPTS.md` for the full behavior and supported workflow.
+
+## What's the difference between `Discarded` and `SKIP`?
+
+From `templates/states.yml`: `Discarded` is "discarded by candidate or offer closed" (you considered it and stopped), `SKIP` is "doesn't fit, don't apply" (never a candidate). They land in different dashboard groups, so they count differently in your funnel: SKIP is filtering, Discarded is dropping out.
+
+## Is there only one CV template?
+
+No. `templates/` has `cv-template.html`, `cv-template.tex` (LaTeX/Overleaf), `cv-template.zh-minimal.html`, `resume-template.html`, `cover-letter-template.html`, plus `templates/sections/`. See also "Can I use my own CV template?" above.
+
+## Why does Chrome open during some scans but not others?
+
+Chromium only launches with `--verify`. A normal scan reads public ATS APIs and needs no browser; `--verify` checks a posting is genuinely still live, which needs a real page load. If it fails, the error asks you to run `npx playwright install chromium`.
+
+## Can I run career-ops in Docker / self-hosted?
+
+Yes: there's a `Dockerfile` and `docker-compose.yml` in the repo root. Note that career-ops is local-first and human-in-the-loop, so Docker packages the environment: it does not turn career-ops into a service that runs on its own or applies to jobs for you.
+
+## Does career-ops sync across devices?
+
+No. Everything is files in your checkout, and there is no cloud component. People who want this put the directory in a synced folder.
+
+## How do I get an issue assigned to me?
+
+Comment on it and we'll assign it (this is in CONTRIBUTING.md). A PR with no prior issue is welcome for bug fixes, zero-auth scanner providers, docs and translations. Issue-first applies only to new features, new modes and architecture changes.
+
+## Can I use career-ops without a terminal?
+
+Yes: see [`docs/COWORK.md`](COWORK.md) which covers running it inside Claude Cowork, verified end to end. One step people trip on: Cowork's shell has no npm network access, so clone and `npm install` in a terminal *before* opening the folder.

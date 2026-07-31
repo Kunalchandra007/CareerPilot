@@ -1,6 +1,6 @@
-# CareerPilot -- Modalità in italiano (`modes/it/`)
+# career-ops -- Modalità in italiano (`modes/it/`)
 
-Questa cartella contiene le traduzioni in italiano delle principali modalità di CareerPilot per i candidati che si rivolgono al mercato italiano.
+Questa cartella contiene le traduzioni in italiano delle principali modalità di career-ops per i candidati che si rivolgono al mercato italiano.
 
 ## Quando usare queste modalità?
 

@@ -48,5 +48,5 @@ body:
           required: true
         - label: MIT-compatible license; no personal data in the repo
           required: true
-        - label: No commercial / hosted-service / monetization wording — CareerPilot is free and local-first
+        - label: No commercial / hosted-service / monetization wording — career-ops is free and local-first
           required: true

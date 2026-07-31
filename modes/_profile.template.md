@@ -1,4 +1,4 @@
-# User Profile Context -- CareerPilot
+# User Profile Context -- career-ops
 
 <!-- ============================================================
      THIS FILE IS YOURS. It will NEVER be auto-updated.

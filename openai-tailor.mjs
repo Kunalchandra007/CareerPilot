@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * openai-tailor.mjs — OpenAI-compatible CV Tailoring for CareerPilot
+ * openai-tailor.mjs — OpenAI-compatible CV Tailoring for career-ops
  *
  * Tailor your CV (HTML) with ANY OpenAI-compatible chat endpoint instead of Claude.
  * This is the headless companion to openai-eval.mjs. It takes an evaluation report
@@ -33,6 +33,7 @@ const ROOT = dirname(fileURLToPath(import.meta.url));
 // ---------------------------------------------------------------------------
 const PATHS = {
   shared:   join(ROOT, 'modes', '_shared.md'),
+  writing:  join(ROOT, 'modes', '_writing.md'),
   pdfMode:  join(ROOT, 'modes', 'pdf.md'),
   cv:       join(ROOT, 'cv.md'),
   profile:  join(ROOT, 'config', 'profile.yml'),
@@ -48,7 +49,7 @@ const args = process.argv.slice(2);
 if (args.length === 0 || args[0] === '--help' || args[0] === '-h') {
   console.log(`
 ╔══════════════════════════════════════════════════════════════════╗
-║      CareerPilot — OpenAI-compatible CV Tailoring (Headless)     ║
+║      career-ops — OpenAI-compatible CV Tailoring (Headless)      ║
 ╚══════════════════════════════════════════════════════════════════╝
 
   Tailor your CV with any OpenAI-compatible API to output a filled HTML file.
@@ -182,6 +183,10 @@ function readFile(path, label, required = false) {
 console.log('\\n📂  Loading context files...');
 
 const sharedContext  = readFile(PATHS.shared, 'modes/_shared.md', false);
+// Writing guardrails (Voice DNA / Writing Style / Professional Writing) live in
+// _writing.md since #1710 — a CV-tailoring script needs them, unlike the eval
+// engines that read the eval-core _shared.md alone.
+const writingContext = readFile(PATHS.writing, 'modes/_writing.md', false);
 const pdfModeLogic   = readFile(PATHS.pdfMode, 'modes/pdf.md', false);
 const cvContent      = readFile(PATHS.cv, 'cv.md', true);
 const profileContent = readFile(PATHS.profile, 'config/profile.yml', true);
@@ -190,7 +195,7 @@ const templateHtml   = readFile(PATHS.template, 'templates/cv-template.html', tr
 // ---------------------------------------------------------------------------
 // Build system prompt
 // ---------------------------------------------------------------------------
-const systemPrompt = `You are CareerPilot, an AI-powered CV tailoring engine.
+const systemPrompt = `You are career-ops, an AI-powered CV tailoring engine.
 You read a candidate's base CV, profile, an evaluation report, and a Job Description.
 Your job is to apply strict anti-fabrication tailoring rules to fill in an HTML template.
 
@@ -198,6 +203,11 @@ Your job is to apply strict anti-fabrication tailoring rules to fill in an HTML 
 SYSTEM CONTEXT (_shared.md)
 ═══════════════════════════════════════════════════════
 ${sharedContext}
+
+═══════════════════════════════════════════════════════
+WRITING GUARDRAILS (_writing.md)
+═══════════════════════════════════════════════════════
+${writingContext}
 
 ═══════════════════════════════════════════════════════
 PDF TAILORING MODE (pdf.md)

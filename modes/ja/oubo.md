@@ -1,6 +1,6 @@
 # モード: oubo -- 応募ライブアシスタント
 
-> Free-text answers と cover-letter fields には `voice-dna.md`（存在する場合）を適用する。Full guardrail、conversational voice included（Tier 1 + Tier 2）。`_shared.md` → Voice DNA を参照。
+> Free-text answers と cover-letter fields には `voice-dna.md`（存在する場合）を適用する。Full guardrail、conversational voice included（Tier 1 + Tier 2）。`_writing.md` → Voice DNA を参照。
 
 候補者が Chrome で応募フォームを入力しているときの interactive mode。画面上の内容を読み、事前評価済みの求人 context を読み込み、フォームの各質問に personalized responses を生成する。
 
@@ -95,7 +95,7 @@ Legal、demographic、work-authorization、visa/sponsorship、salary、disabilit
 2. **Previous Section G:** Draft response があれば base として使い refine
 3. **"I'm choosing you" tone:** Same auto-pipeline framework
 4. **Specificity:** 画面上に見える JD の specific detail を reference
-5. **CareerPilot proof point:** "Additional info" field があれば含める
+5. **career-ops proof point:** "Additional info" field があれば含める
 6. **Recruiter-side risk map:** `modes/heuristics/recruiter-side.md` を使い、question が解消しようとしている doubt（motivation、stack fit、logistics、comp、work-auth、availability、seniority）を特定し、そこに直接答える
 7. **Disclosure discipline:** Logistics questions には truthfully に答えるが、unrelated motivation/fit answers で sensitive or HR-only details を自発的に出さない
 

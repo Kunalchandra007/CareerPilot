@@ -1,11 +1,11 @@
-# 共通コンテキスト -- CareerPilot（日本語）
+# 共通コンテキスト -- career-ops（日本語）
 
 <!-- ============================================================
      THIS FILE IS AUTO-UPDATABLE. Don't put personal data here.
 
      Your customizations go in modes/_profile.md (never auto-updated).
      This file contains system rules, scoring logic, and tool config
-     that improve with each CareerPilot release.
+     that improve with each career-ops release.
      ============================================================ -->
 
 ## 真実のソース（EXCLUSIVE）

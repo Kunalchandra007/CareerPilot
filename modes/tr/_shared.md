@@ -1,4 +1,4 @@
-# Ortak Bağlam -- CareerPilot (Türkçe)
+# Ortak Bağlam -- career-ops (Türkçe)
 
 <!-- ============================================================
      BU DOSYA OTOMATİK GÜNCELLENEBİLİR. Buraya kişisel veri ekleme.

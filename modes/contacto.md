@@ -1,6 +1,6 @@
 # Mode: contacto -- Outreach messages
 
-> Apply `voice-dna.md` (if present) to every generated message — full guardrail, conversational voice included (Tier 1 + Tier 2). See `_shared.md` → Voice DNA.
+> Apply `voice-dna.md` (if present) to every generated message — full guardrail, conversational voice included (Tier 1 + Tier 2). See `_writing.md` → Voice DNA.
 
 This mode has two variants that share the same persona engine (recruiter → hard
 requirements; hiring manager → impact/vision):
@@ -60,6 +60,15 @@ short message; otherwise run the LinkedIn power move below.
    - ES (if Spanish company)
 
 6. **Alternative targets** with justification for why they are good second choices
+
+7. **Offer to save the contact** -- once the candidate picks a target, ask whether
+   to save that person to `data/contacts.tsv` (one line:
+   `{name}\t{company}\t{type}\t{title}\t{phone}\t{email}\t{linkedin}\t{tracker#|-}\t{notes}`,
+   `-` for tracker# if there is no application yet). Append a new line, or update
+   the person's existing line in place if they are already there — match by
+   name+company, the same key the vCard UID uses. NEVER save without the
+   candidate confirming first. Saved contacts export to the phone with
+   `node contacts.mjs --vcf` (vCard).
 
 **Contact channel preference:** Read `contact_preferences.preferred_channel` from
 `config/profile.yml`. If it is absent or set to `"either"`, write the CTA
@@ -123,7 +132,7 @@ that there is **no contact discovery**.
 **Greeting rules:**
 - Platform-agnostic — never assume LinkedIn; works for any chat/opener surface.
 - Within `outreach.greeting_max_chars` (default 150). Never exceed it.
-- Same non-fabrication rule as the rest of CareerPilot: reformulate real experience
+- Same non-fabrication rule as the rest of career-ops: reformulate real experience
   from `cv.md`, never invent a skill, metric, or claim.
 - NO corporate-speak, NO "I'm passionate about...", NEVER share a phone number.
 - Persona changes the EMPHASIS, not the structure.

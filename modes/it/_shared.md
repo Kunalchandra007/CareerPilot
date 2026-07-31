@@ -1,10 +1,10 @@
-# Contesto condiviso -- CareerPilot (Italiano)
+# Contesto condiviso -- career-ops (Italiano)
 
 <!-- ============================================================
      PERSONALIZZAZIONE DI QUESTO FILE
      ============================================================
      Questo file contiene il contesto condiviso per tutte le modalità
-     CareerPilot in versione italiana. Prima di usare CareerPilot, DEVI:
+     career-ops in versione italiana. Prima di usare career-ops, DEVI:
      1. Compilare config/profile.yml con le tue informazioni personali
      2. Creare cv.md nella cartella principale del progetto (CV in Markdown)
      3. (Opzionale) Creare article-digest.md con i tuoi proof point misurabili

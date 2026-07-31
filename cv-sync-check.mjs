@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * cv-sync-check.mjs — Validates that the CareerPilot setup is consistent.
+ * cv-sync-check.mjs — Validates that the career-ops setup is consistent.
  *
  * Checks:
  * 1. cv.md exists
@@ -49,6 +49,7 @@ if (!existsSync(profilePath)) {
 // 3. Check for hardcoded metrics in prompt files
 const filesToCheck = [
   { path: join(projectRoot, 'modes', '_shared.md'), name: '_shared.md' },
+  { path: join(projectRoot, 'modes', '_writing.md'), name: '_writing.md' },
   { path: join(projectRoot, 'batch', 'batch-prompt.md'), name: 'batch-prompt.md' },
 ];
 
@@ -82,7 +83,7 @@ if (existsSync(digestPath)) {
 }
 
 // Output results
-console.log('\n=== CareerPilot sync check ===\n');
+console.log('\n=== career-ops sync check ===\n');
 
 if (errors.length === 0 && warnings.length === 0) {
   console.log('All checks passed.');

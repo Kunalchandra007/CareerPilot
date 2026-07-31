@@ -1,10 +1,10 @@
-# Contexto compartido -- CareerPilot (Español)
+# Contexto compartido -- career-ops (Español)
 
 <!-- ============================================================
      PERSONALIZACIÓN DE ESTE ARCHIVO
      ============================================================
      Este archivo contiene el contexto compartido para todos los modos
-     CareerPilot en versión española. Antes de usar CareerPilot, DEBES:
+     career-ops en versión española. Antes de usar career-ops, DEBES:
      1. Rellenar config/profile.yml con tus datos personales
      2. Crear cv.md en la raíz del proyecto (CV en Markdown)
      3. (Opcional) Crear article-digest.md con tus proof points

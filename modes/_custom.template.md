@@ -1,4 +1,4 @@
-# Custom Instructions -- CareerPilot
+# Custom Instructions -- career-ops
 
 <!-- ============================================================
      THIS FILE IS YOURS. It will NEVER be auto-updated.

@@ -203,7 +203,7 @@ function loadActiveInterviews(path = ACTIVE_INTERVIEWS_PATH) {
 // --- Summary mode ---
 function printSummary(signals) {
   console.log(`\n${'='.repeat(78)}`);
-  console.log('  Process Quality Signal — CareerPilot');
+  console.log('  Process Quality Signal — career-ops');
   console.log(`  min threshold: ${MIN_THRESHOLD} interview(s) | companies: ${signals.length}`);
   console.log(`${'='.repeat(78)}\n`);
 

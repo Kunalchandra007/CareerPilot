@@ -1,6 +1,6 @@
 # modes/
 
-The "brain" of CareerPilot: Markdown prompt files executed by whatever AI
+The "brain" of career-ops: Markdown prompt files executed by whatever AI
 coding CLI you use.
 
 ## Purpose
@@ -33,6 +33,7 @@ table in `AGENTS.md` (mirrored in `CLAUDE.md`).
 | `offer-prep.md` | `offer-prep` | Contract reading companion (offer stage) |
 | `followup.md` | `followup` | Follow-up cadence tracker |
 | `reply-watch.md` | `reply-watch` | Classify employer replies, reconcile tracker |
+| `outcome.md` | `outcome` | Record application outcome & archive artifacts |
 | `tracker.md` | `tracker` | Applications tracker overview |
 | `patterns.md` | `patterns` | Rejection pattern detector |
 | `titles.md` | `titles` | Adjacent job-title suggestions |

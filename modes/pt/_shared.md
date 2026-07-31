@@ -1,11 +1,11 @@
-# Contexto Compartilhado -- CareerPilot (Português BR)
+# Contexto Compartilhado -- career-ops (Português BR)
 
 <!-- ============================================================
      THIS FILE IS AUTO-UPDATABLE. Don't put personal data here.
      
      Your customizations go in modes/_profile.md (never auto-updated).
      This file contains system rules, scoring logic, and tool config
-     that improve with each CareerPilot release.
+     that improve with each career-ops release.
      ============================================================ -->
 
 ## Fontes da Verdade (SEMPRE ler antes de cada avaliação)
