@@ -78,9 +78,10 @@ REM --- Start the server in the background, then open the browser ---
 echo [CareerPilot] Starting CareerPilot at http://localhost:3000 ...
 start "" /b cmd /c "npm run start"
 
-REM Give the server a moment, then open the dashboard.
+REM Give the server a moment, then open the dashboard (/today = the app;
+REM / is the marketing landing page).
 timeout /t 4 /nobreak >nul
-start "" "http://localhost:3000"
+start "" "http://localhost:3000/today"
 
 echo.
 echo [CareerPilot] CareerPilot is running. Close this window to stop the server.

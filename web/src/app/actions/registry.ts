@@ -92,7 +92,7 @@ function isAllowedPath(p: string): boolean {
   if (!p.startsWith("/")) return false;
   if (/^(https?:)?\/\//i.test(p)) return false;
   const path = p.split(/[?#]/)[0];
-  if (path === "/") return true;
+  if (path === "/" || path === "/today") return true;
   return /^\/(explore|pipeline|portals|analytics|cv|config|apply|jobs)(\/[^/]+)?$/.test(path);
 }
 

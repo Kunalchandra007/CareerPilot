@@ -41,6 +41,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
       </head>
       <body className="font-sans antialiased premium-wash">
+        {/* AppShell renders the app chrome (sidebar, nav, providers) for every
+            route EXCEPT the marketing landing at `/`, which it detects by pathname
+            and renders bare. See app-shell.tsx. */}
         <AppShell>{children}</AppShell>
       </body>
     </html>

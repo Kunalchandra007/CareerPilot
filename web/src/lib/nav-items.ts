@@ -11,7 +11,7 @@ export type NavItem = {
 };
 
 export const NAV_ITEMS: NavItem[] = [
-  { href: "/", label: "Today", icon: LayoutDashboard },
+  { href: "/today", label: "Today", icon: LayoutDashboard },
   { href: "/explore", label: "Explore", icon: Compass, chip: "New" },
   { href: "/pipeline", label: "Pipeline", icon: ListChecks },
   { href: "/portals", label: "Portals", icon: Radar },
@@ -21,5 +21,5 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export function isActivePath(href: string, pathname: string): boolean {
-  return href === "/" ? pathname === "/" : pathname.startsWith(href);
+  return href === "/today" ? pathname === "/today" : pathname.startsWith(href);
 }

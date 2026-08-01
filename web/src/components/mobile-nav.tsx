@@ -105,7 +105,7 @@ export function MobileNav() {
       <style>{STYLE}</style>
 
       <header className="co-mnav flex items-center gap-2 border-b border-border px-4 pb-3 md:hidden">
-        <Link href="/" className="flex min-h-[44px] items-center gap-2" aria-label="CareerPilot home">
+        <Link href="/today" className="flex min-h-[44px] items-center gap-2" aria-label="CareerPilot home">
           <CoMark size={26} />
           <span className={`${instrumentSerif.className} relative -top-px text-xl text-landing`}>CareerPilot</span>
         </Link>

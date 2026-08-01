@@ -20,6 +20,11 @@ import { NAV_ITEMS, isActivePath } from "@/lib/nav-items";
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  // The marketing landing page at `/` renders bare — no sidebar, no mobile nav,
+  // no app providers. It brings its own header/footer and reads zero user data,
+  // so it looks identical hosted (no local files) or local. Every other route
+  // gets the full app chrome below.
+  if (pathname === "/") return <>{children}</>;
   return (
     <JobsProvider>
       <PipelineProvider>
@@ -28,7 +33,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <MobileNav />
       <div className="flex min-h-screen">
         <aside className="sticky top-0 hidden h-screen w-60 shrink-0 flex-col border-r border-border glass p-4 md:flex">
-          <Link href="/" className="mb-8 flex shrink-0 items-center gap-2.5 px-1">
+          <Link href="/today" className="mb-8 flex shrink-0 items-center gap-2.5 px-1">
             <CoMark size={32} />
             <span className={`${instrumentSerif.className} relative -top-px text-2xl font-normal tracking-tight text-landing`}>
               CareerPilot

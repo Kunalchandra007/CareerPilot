@@ -90,7 +90,7 @@ function removeRanges(s: string, cuts: [number, number][]): string {
 // Page awareness: describe the route so "this offer" / "apply" resolves to what
 // the user is looking at.
 function describePage(p: string): string {
-  if (p === "/") return "Today / home — overview of the user's pipeline.";
+  if (p === "/today") return "Today / home — overview of the user's pipeline.";
   if (p === "/pipeline") return "Pipeline — the applications table + the inbox of pending job URLs.";
   const m = p.match(/^\/pipeline\/([^/]+)$/);
   if (m)
