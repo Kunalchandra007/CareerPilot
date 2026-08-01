@@ -7,7 +7,7 @@ import { getSession } from "@/lib/apply/session";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-export const maxDuration = 320;
+export const maxDuration = 300;
 
 /**
  * Pull a JSON object out of an LLM's text answer, tolerating code fences,
@@ -152,7 +152,7 @@ Output ONLY a compact JSON object mapping each field id → {"value": "...", "ne
         ? ["-p", prompt, "--permission-mode", "acceptEdits", "--strict-mcp-config", "--allowedTools", "Read,Glob,Grep", "--disallowedTools", "Bash,Write,Edit,NotebookEdit,Task,WebFetch,WebSearch"]
         : spec.args(prompt);
       // Scale the timeout with form size (big forms = more drafting). Cap < maxDuration.
-      const killMs = Math.min(300_000, 150_000 + s.fields.length * 6_000);
+      const killMs = Math.min(290_000, 150_000 + s.fields.length * 6_000);
       log(`Spawning planner (timeout ${Math.round(killMs / 1000)}s)…`);
 
       const result = await new Promise<{ buf: string; code: number | null; signal: NodeJS.Signals | null }>((resolve) => {

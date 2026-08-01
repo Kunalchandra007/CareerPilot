@@ -327,7 +327,7 @@ Two separate axes:
 
 - **GitHub Actions** on every PR: the full `test-all.mjs` suite, risk-based auto-labeler (🔴 core-architecture, ⚠️ agent-behavior, 📄 docs), first-timer welcome bot. **Branch protection** on `main`: status checks required, no direct pushes (except admin bypass). **Dependabot** on npm/Go/Actions.
 - **Contributing:** issue first → discussion → PR with linked issue → CI passes → maintainer review → merge.
-- **Governance:** BDFL with contributor ladder (Participant → Contributor → Triager → Reviewer → Maintainer, see `GOVERNANCE.md`) · Contributor Covenant 2.1 (`CODE_OF_CONDUCT.md`) · private vulnerability reporting (`SECURITY.md`) · help questions → Discord/Discussions, not issues (`SUPPORT.md`) · Discord: https://discord.gg/8pRpHETxa4
+- **Governance:** community-friendly contributor ladder (Participant → Contributor → Reviewer → Maintainer, see `GOVERNANCE.md`) · Contributor Covenant 2.1 (`CODE_OF_CONDUCT.md`) · private vulnerability reporting via GitHub security advisory (`SECURITY.md`) · help questions → GitHub Discussions, not issues (`SUPPORT.md`).
 
 ## The CareerOps Manifesto
 

@@ -26,7 +26,7 @@ It comes in two halves that share the exact same files — no database, no cloud
 | 🖥️ **The CLI pipeline** | Runs inside any AI coding CLI (Claude Code, Codex, Gemini, Qwen, OpenCode, Copilot, and more). You chat; it evaluates offers, writes reports, generates PDFs, and updates your tracker. |
 | 🌐 **The Web dashboard** | A beautiful Next.js 16 app (`web/`) that reads and writes the same files. Paste a URL, watch a live scan stream in, review your funnel, and edit your CV — all in the browser. |
 
-> Built and battle-tested by [santifer](https://santifer.io) to evaluate **740+ offers**, generate **100+ tailored CVs**, and land a **Head of Applied AI** role. The scoring, archetypes, and playbooks reflect a real, successful search.
+> **Built on [career-ops](https://github.com/santifer/career-ops).** CareerPilot is an independent project inspired by and built on top of career-ops — the open-source pipeline [santifer](https://santifer.io) used to evaluate **740+ offers**, generate **100+ tailored CVs**, and land a **Head of Applied AI** role. CareerPilot extends that foundation with its own web dashboard and refinements.
 
 **It works out of the box — but it's designed to be made yours.** Tell the agent *"change the archetypes to data-engineering roles"* and it rewrites your targeting. Your files, your rules.
 
@@ -205,15 +205,19 @@ See [DATA_CONTRACT.md](DATA_CONTRACT.md) for the full breakdown.
 
 ## 🤝 Contributing
 
-Contributions are welcome! The flow: **open an issue → discuss → PR with a linked issue → CI passes → review → merge.** Every PR runs the full test suite via GitHub Actions.
+Contributions are welcome! The flow: **open an issue → discuss → PR with a linked issue → CI passes → review → merge.**
 
-See [GOVERNANCE.md](GOVERNANCE.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), and [SECURITY.md](SECURITY.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), and [SECURITY.md](SECURITY.md).
 
 ---
 
 ## 📄 License
 
-[MIT](LICENSE) © 2026 Santiago Fernández de Valderrama
+[MIT](LICENSE)
+
+## 🙏 Built On
+
+CareerPilot is an independent project **built on top of [career-ops](https://github.com/santifer/career-ops)** by [santifer](https://santifer.io), and inspired by its approach to AI-assisted, local-first job search. Huge thanks to the upstream project and its author.
 
 <div align="center">
 

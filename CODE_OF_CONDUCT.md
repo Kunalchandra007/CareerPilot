@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-We as members, contributors, and maintainers pledge to make participation in career-ops a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We as members, contributors, and maintainers pledge to make participation in CareerPilot a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 ## Our Standards
 
@@ -24,7 +24,7 @@ We as members, contributors, and maintainers pledge to make participation in car
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting **hi@santifer.io**. All complaints will be reviewed and investigated.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by opening a report through the [CareerPilot repository](https://github.com/Kunalchandra007/CareerPilot) (use a private security advisory for sensitive reports). All complaints will be reviewed and investigated.
 
 Maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, issues, and other contributions that violate this Code of Conduct, and to temporarily or permanently ban any contributor for behaviors they deem inappropriate, threatening, or harmful.
 
@@ -36,8 +36,12 @@ Maintainers have the right and responsibility to remove, edit, or reject comment
 
 ## Scope
 
-This Code of Conduct applies within all project spaces (GitHub, Discord, social media) and when an individual is representing the project in public spaces.
+This Code of Conduct applies within all project spaces (GitHub, social media) and when an individual is representing the project in public spaces.
 
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1.
+
+---
+
+CareerPilot is built on top of [career-ops](https://github.com/santifer/career-ops) and inspired by its approach to job-search automation.

@@ -8,7 +8,7 @@ import https from "node:https";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
-export const maxDuration = 800; // a real oferta evaluation / pdf-mode CV tailoring + render is heavy and multi-step
+export const maxDuration = 300; // Hobby-plan cap; a real oferta evaluation / pdf-mode CV tailoring + render is heavy and multi-step
 
 // The web ORCHESTRATES the real career-ops engine — it does NOT reimplement it.
 // kind "evaluate" runs the REAL modes/oferta.md and persists the canonical
@@ -277,7 +277,7 @@ export async function POST(req: Request) {
       // take 5-8 min on Claude Code; the old 285s killer fired mid-run and
       // surfaced as "thinking then dies" (#hang). pdf-mode also tailors a full
       // CV + renders it, so both get a generous 15-min ceiling.
-      const killMs = 900_000;
+      const killMs = 290_000;
       killer = setTimeout(() => {
         try { child.kill("SIGTERM"); } catch { /* ignore */ }
       }, killMs);
