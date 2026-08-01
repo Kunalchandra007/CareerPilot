@@ -378,7 +378,7 @@ export function LandingExperience() {
     ];
     const term = root.querySelector<HTMLElement>("#cp-term");
     let li = 0;
-    const cursor = () => term?.querySelector(".cp-cursor");
+    const cursor = (): Element | null => term?.querySelector(".cp-cursor") ?? null;
     const typeLine = (html: string, done: () => void) => {
       if (!term || cancelled) return;
       const tmp = document.createElement("div");
