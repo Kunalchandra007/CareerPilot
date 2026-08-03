@@ -96,7 +96,7 @@ html.dark .cp-landing{
 .cp-term-wrap{margin-top:3rem;background:hsl(30 12% 9%);border-radius:16px;overflow:hidden;border:1px solid hsl(30 8% 18%);box-shadow:0 20px 60px rgba(0,0,0,.12),0 4px 16px rgba(0,0,0,.08)}
 .cp-term-bar{background:hsl(30 10% 12%);padding:.7rem 1rem;display:flex;align-items:center;gap:.45rem;border-bottom:1px solid hsl(30 8% 16%)}
 .cp-dot{width:11px;height:11px;border-radius:50%}
-.cp-term-body{padding:1.5rem 1.6rem;font-family:'SF Mono','Fira Code',ui-monospace,monospace;font-size:.8rem;line-height:2;color:#b0a898;min-height:200px}
+.cp-term-body{padding:1.5rem 1.6rem;font-family:'SF Mono','Fira Code',ui-monospace,monospace;font-size:.8rem;line-height:2;color:#b0a898;min-height:200px;overflow-x:auto}
 .cp-term-body .g{color:#7ec8a0}.cp-term-body .o{color:hsl(26 73% 65%)}.cp-term-body .b{color:#8ab4d4}.cp-term-body .dim{color:#5a5248}
 .cp-cursor{display:inline-block;width:7px;height:1em;background:hsl(26 73% 65%);vertical-align:text-bottom;animation:cp-blink .9s step-end infinite}
 @keyframes cp-blink{0%,100%{opacity:1}50%{opacity:0}}
@@ -139,7 +139,40 @@ html.dark .cp-landing{
 .cp-feat h3{font-size:1rem;font-weight:600;color:var(--l-fg);margin-bottom:.45rem}
 .cp-feat p{font-size:.86rem;color:var(--l-muted);line-height:1.68}
 @media(max-width:820px){.cp-bento{grid-template-columns:1fr 1fr}}
-@media(max-width:560px){.cp-bento{grid-template-columns:1fr}.cp-proof{gap:2.5rem}}
+@media(max-width:768px){
+  .cp-nav-inner{padding:.8rem 1.2rem}
+  .cp-nav.scrolled .cp-nav-inner{padding:.55rem 1rem}
+  .cp-nav-link{display:none}
+  .cp-nav-right{gap:.7rem}
+  .cp-hero{padding:4rem 1.5rem 3rem}
+  .cp-hero-sub{font-size:1.05rem}
+  .cp-section{padding:4rem 1.5rem}
+  .cp-proof{padding:2rem 1.5rem;gap:3rem}
+  .cp-proof-n{font-size:2.2rem}
+  .cp-dl-grid{grid-template-columns:1fr}
+  .cp-term-body{font-size:.75rem;padding:1.2rem}
+}
+@media(max-width:560px){
+  .cp-bento{grid-template-columns:1fr}
+  .cp-proof{gap:2rem;flex-direction:column}
+  .cp-landing h1{font-size:2.6rem}
+  .cp-hero{padding:3rem 1.2rem 2.5rem}
+  .cp-section{padding:3rem 1.2rem}
+  .cp-hero-sub{font-size:1rem;line-height:1.65}
+  .cp-btn-primary,.cp-btn-ghost{width:100%;justify-content:center}
+  .cp-step{padding:1.4rem}
+  .cp-feat{padding:1.5rem}
+  .cp-nav-cta{padding:.4rem .9rem;font-size:.8rem}
+}
+@media(max-width:400px){
+  .cp-landing h1{font-size:2.3rem}
+  .cp-logo{font-size:1.05rem}
+  .cp-logo-mark{width:26px;height:26px;font-size:.7rem}
+  .cp-theme-btn{width:28px;height:28px}
+  .cp-hero{padding:2.5rem 1rem 2rem}
+  .cp-section{padding:2.5rem 1rem}
+  .cp-proof{padding:1.5rem 1rem}
+}
 `;
 
 const DL_BAT = "/CareerPilot-Setup.bat";

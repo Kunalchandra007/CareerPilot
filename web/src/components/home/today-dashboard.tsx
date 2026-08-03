@@ -394,8 +394,8 @@ export function TodayDashboard({
 function Section({ icon: Icon, title, hint, children }: { icon: React.ComponentType<{ className?: string }>; title: string; hint: string; children: React.ReactNode }) {
   return (
     <section className="mt-10">
-      <div className="mb-3 flex items-center gap-2">
-        <Icon className="size-4 text-brand" />
+      <div className="mb-3 flex flex-wrap items-center gap-x-2 gap-y-1">
+        <Icon className="size-4 shrink-0 text-brand" />
         <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-muted">{title}</h2>
         <span className="text-xs text-faint">· {hint}</span>
       </div>

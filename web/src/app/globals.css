@@ -293,6 +293,12 @@ html {
 }
 .report-prose hr { border: none; border-top: 1px solid var(--border); margin: 1.75rem 0; }
 .report-prose table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin: 1rem 0; }
+/* On narrow screens, let a wide report table scroll horizontally instead of
+   overflowing the viewport (turns the table into its own scroll region). */
+@media (max-width: 640px) {
+  .report-prose table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; white-space: nowrap; }
+  .report-prose td { white-space: normal; min-width: 8rem; }
+}
 .report-prose thead { border-bottom: 1px solid var(--border); }
 .report-prose th { text-align: left; font-weight: 600; color: var(--fg); padding: 0.5rem 0.75rem; vertical-align: top; }
 .report-prose td {

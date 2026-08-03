@@ -189,8 +189,8 @@ export function PipelineView({
         )
       ) : filtered.length > 0 ? (
         /* ── Tracker table ── */
-        <div className="mt-4 overflow-hidden rounded-2xl border border-border">
-          <table className="w-full text-sm">
+        <div className="mt-4 overflow-x-auto rounded-2xl border border-border">
+          <table className="w-full min-w-[640px] text-sm">
             <thead className="bg-surface/60 text-left text-xs uppercase tracking-wide text-faint">
               <tr>
                 {SORT_KEYS.map((k) => (
